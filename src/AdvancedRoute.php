@@ -38,9 +38,9 @@ class AdvancedRoute {
 
     protected static function slug($method) {
         $methodName = $method->name;
-        $cleaned = str_replace(['any', 'get', 'post', 'delete'], '', $methodName);
-        $snaked = \Illuminate\Support\Str::snake($cleaned, ' ');
-        $slug = str_slug($snaked, '-');
+        $slug = str_replace(['any', 'get', 'post', 'delete'], '', $methodName);
+        //$snaked = \Illuminate\Support\Str::snake($cleaned, ' ');
+        //$slug = str_slug($snaked, '-');
         foreach ($method->getParameters() as $parameter) {
             if ($parameter->hasType()) {
                 continue;
