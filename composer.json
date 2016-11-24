@@ -1,10 +1,10 @@
 {
-    "name": "lesichkovm/laravel-advanced-route",
+    "name": "bmericc/laravel-advanced-route",
     "description": "Advanced route class for Laravel",
     "version": "1.0.0",
     "type": "library",
     "keywords": ["route", "advanced", "laravel", "php", "lesichkov"],    
-    "homepage": "http://github.com/lesichkovm/laravel-advanced-route",
+    "homepage": "http://github.com/bmericc/laravel-advanced-route",
     "license": "commercial",
     "authors": [
         {
